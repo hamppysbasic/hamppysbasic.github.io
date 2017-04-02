@@ -141,25 +141,33 @@ form.signup input.form-control:focus {
 	letter-spacing: -1px;
 }
 .logo{
-    background: url(../img/logo.jpeg);
+    background: url(../img/logo.png);
     width: 150px;
-    height: 100px;
+    height: 210px;
     background-size: cover;
-    margin: 0px 0 0 30%;
+    margin: 0px 0 0 20%;
+}
+.title{
+    background: url(../img/title.png);
+    width: 50%;
+    height: 200px;
+    background-size: cover;
+    margin: 21px 0 0 35px;
 }
 .hamppy{
+    font-size: 65px;
     font-family: 'Spirax', cursive;
-    margin: 25px 0 0 -100px !important;
+    margin: 95px 0 0 -100px !important;
 }
 h2.subtitle {
 	color: #fff;
 	font-size: 24px;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 /* social */
 .social {
-    padding: 30px 0 0 0;
+    /*padding: 30px 0 0 0;*/
 }
 
 .social a {
@@ -197,5 +205,19 @@ p.copyright {
 @media only screen and (max-width: 500px) {
     #wrapper h1 {
         padding: 0 0 0 120px;
+    }
+    .logo{
+    height: 210px;
+    }
+    .hamppy{
+        font-size: 45px;
+        font-family: 'Spirax', cursive;
+        margin: 95px 0 0 -100px !important;
+    }
+    #wrapper{
+        height: 135%;
+    }
+    .title{
+        display: none;
     }
 }
